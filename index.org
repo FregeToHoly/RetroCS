@@ -67,11 +67,13 @@
 **** magit push
      #+BEGIN_tip
      push는 p를 누르면 push가 될꺼 같지만, 그렇지 않다. 왜냐면 p는 previous line과 mapping되어
-     있기 때문에, P(capital P)를 눌러야 push가 된다.
+     있기 때문에, P(capital P)를 눌러야 push가 된다. 시간이 좀 걸린다는 것을 유념해라. 네트웍을 통해 
+     파일을 전송하기 때문에, 늦더라도 계속 P를 누르지 마라.
      #+END_tip
      [push이전]
-
+     [[./img/aftercommit.png]]
      [push이후]
+     [[./img/pushed.png]]
 ** admonition list
  #+begin_note
  This is a useful note.
