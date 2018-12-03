@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-12-03 Mon 11:40 -->
+<!-- 2018-12-04 Tue 05:17 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>My collections</title>
@@ -243,35 +243,42 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgda5278d">1. About me</a></li>
-<li><a href="#orga767548">2. 정리과정</a>
+<li><a href="#org95598e3">1. About me</a></li>
+<li><a href="#org73a931d">2. 정리과정</a>
 <ul>
-<li><a href="#org3d46614">2.1. Project만들기 -(1)</a>
+<li><a href="#orgef11880">2.1. Project만들기 -(step 1)</a>
 <ul>
-<li><a href="#org09f86ed">2.1.1. github 만들기.</a></li>
-<li><a href="#org637106e">2.1.2. project folder</a></li>
-<li><a href="#org98fae7f">2.1.3. [기술] magit 사용법</a>
+<li><a href="#org59b3010">2.1.1. github 만들기.</a></li>
+<li><a href="#org0f21721">2.1.2. project folder</a></li>
+<li><a href="#orgd5ddaa3">2.1.3. [기술] magit 사용법</a>
 <ul>
-<li><a href="#org270f36e">magit 설치</a></li>
-<li><a href="#org4b68f3d">magit clone</a></li>
-<li><a href="#orgcf33188">magit add</a></li>
-<li><a href="#org20d8434">magit commit</a></li>
-<li><a href="#org561332c">magit push</a></li>
+<li><a href="#org375af20">magit 설치</a></li>
+<li><a href="#orgdb74215">magit clone</a></li>
+<li><a href="#org64ec458">magit add</a></li>
+<li><a href="#org1de9b4e">magit commit</a></li>
+<li><a href="#org0a5ff5b">magit push</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org75de73a">2.2. admonition list</a></li>
+<li><a href="#org0080e1b">2.2. Project만들기 -(step 2)</a>
+<ul>
+<li><a href="#org2ae9050">2.2.1. [기술] yasnippet사용법</a></li>
+<li><a href="#org601c5ee">2.2.2. yasnippet list</a>
+<ul>
+<li><a href="#org937529b">readtheorg header</a></li>
+<li><a href="#org44049a7">admonition list</a></li>
 </ul>
 </li>
-<li><a href="#org0652b23">3. 책</a></li>
-<li><a href="#orgf4548a6">4. Articles</a></li>
-<li><a href="#org3ebc9a5">5. My thinkings</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgda5278d" class="outline-2">
-<h2 id="orgda5278d"><span class="section-number-2">1</span> About me</h2>
+<div id="outline-container-org95598e3" class="outline-2">
+<h2 id="org95598e3"><span class="section-number-2">1</span> About me</h2>
 <div class="outline-text-2" id="text-1">
 <pre class="example">
 . 가난한 사람.
@@ -291,16 +298,20 @@ framework?를 사용하기로 했다. 그런데 예상과 달리, 복잡한 과�
 </div>
 </div>
 </div>
-<div id="outline-container-orga767548" class="outline-2">
-<h2 id="orga767548"><span class="section-number-2">2</span> 정리과정</h2>
+<div id="outline-container-org73a931d" class="outline-2">
+<h2 id="org73a931d"><span class="section-number-2">2</span> 정리과정</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org3d46614" class="outline-3">
-<h3 id="org3d46614"><span class="section-number-3">2.1</span> Project만들기 -(1)</h3>
+<div id="outline-container-orgef11880" class="outline-3">
+<h3 id="orgef11880"><span class="section-number-3">2.1</span> Project만들기 -(step 1)</h3>
 <div class="outline-text-3" id="text-2-1">
+<p class="verse">
+첫번째 단계는 github에 repository를 만들고, local에 clone하고 changes를 github에 반영하기 위해서<br />
+git명령어를 알아야 한다.<br />
+</p>
 </div>
-<div id="outline-container-org09f86ed" class="outline-4">
-<h4 id="org09f86ed"><span class="section-number-4">2.1.1</span> github 만들기.</h4>
+<div id="outline-container-org59b3010" class="outline-4">
+<h4 id="org59b3010"><span class="section-number-4">2.1.1</span> github 만들기.</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <p>
 내가 쓴 글을 저장하고 웹으로 보여주기 위해 첫번째로 해야 할건, github에 계정을 만드는 것이다.
@@ -309,8 +320,8 @@ framework?를 사용하기로 했다. 그런데 예상과 달리, 복잡한 과�
 </div>
 </div>
 
-<div id="outline-container-org637106e" class="outline-4">
-<h4 id="org637106e"><span class="section-number-4">2.1.2</span> project folder</h4>
+<div id="outline-container-org0f21721" class="outline-4">
+<h4 id="org0f21721"><span class="section-number-4">2.1.2</span> project folder</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <p>
 github을 만들었기 때문에 clone하면 RetroCS폴더가 만들어진다. 여기서 원하는 폴더와 문서를 작성하면 된다.
@@ -319,8 +330,8 @@ github을 만들었기 때문에 clone하면 RetroCS폴더가 만들어진다. �
 </div>
 </div>
 
-<div id="outline-container-org98fae7f" class="outline-4">
-<h4 id="org98fae7f"><span class="section-number-4">2.1.3</span> [기술] magit 사용법</h4>
+<div id="outline-container-orgd5ddaa3" class="outline-4">
+<h4 id="orgd5ddaa3"><span class="section-number-4">2.1.3</span> [기술] magit 사용법</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <p>
 github을 만들었기 때문에 github 저장소와 local machine간의 파일 전송및 이력관리를 위해 git을 사용할 줄 알아야 한다.
@@ -328,9 +339,9 @@ emacs를 사용하기 때문에 magit을 사용한다. 모든 기능을 살펴�
 </p>
 </div>
 
-<div id="outline-container-org270f36e" class="outline-5">
-<h5 id="org270f36e">magit 설치</h5>
-<div class="outline-text-5" id="text-org270f36e">
+<div id="outline-container-org375af20" class="outline-5">
+<h5 id="org375af20">magit 설치</h5>
+<div class="outline-text-5" id="text-org375af20">
 
 <div class="figure">
 <p><img src="./img/magit.png" alt="magit.png" />
@@ -338,9 +349,9 @@ emacs를 사용하기 때문에 magit을 사용한다. 모든 기능을 살펴�
 </div>
 </div>
 </div>
-<div id="outline-container-org4b68f3d" class="outline-5">
-<h5 id="org4b68f3d">magit clone</h5>
-<div class="outline-text-5" id="text-org4b68f3d">
+<div id="outline-container-orgdb74215" class="outline-5">
+<h5 id="orgdb74215">magit clone</h5>
+<div class="outline-text-5" id="text-orgdb74215">
 <p>
 좋은 동영상이 있어서 참조한다. 
 </p>
@@ -355,9 +366,9 @@ M-x magit-clone을 입력한 후, clone할 source address, target address를 입
 </p>
 </div>
 </div>
-<div id="outline-container-orgcf33188" class="outline-5">
-<h5 id="orgcf33188">magit add</h5>
-<div class="outline-text-5" id="text-orgcf33188">
+<div id="outline-container-org64ec458" class="outline-5">
+<h5 id="org64ec458">magit add</h5>
+<div class="outline-text-5" id="text-org64ec458">
 <div class="tip">
 <p>
 C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unstaged files)이 있다면 s를 눌러서 stage로 
@@ -373,9 +384,9 @@ C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unsta
 </p>
 </div>
 </div>
-<div id="outline-container-org20d8434" class="outline-5">
-<h5 id="org20d8434">magit commit</h5>
-<div class="outline-text-5" id="text-org20d8434">
+<div id="outline-container-org1de9b4e" class="outline-5">
+<h5 id="org1de9b4e">magit commit</h5>
+<div class="outline-text-5" id="text-org1de9b4e">
 <div class="tip">
 <p>
 staged changes라고 붙은 label아래 파일에 커서를 놓고 c를 누르면 popup menu가 뜬다.
@@ -393,13 +404,13 @@ label에 커서를 올려놓으면 모든파일을 한번에 commit할 수 있�
 </p>
 </div>
 </div>
-<div id="outline-container-org561332c" class="outline-5">
-<h5 id="org561332c">magit push</h5>
-<div class="outline-text-5" id="text-org561332c">
+<div id="outline-container-org0a5ff5b" class="outline-5">
+<h5 id="org0a5ff5b">magit push</h5>
+<div class="outline-text-5" id="text-org0a5ff5b">
 <div class="tip">
 <p>
 push는 p를 누르면 push가 될꺼 같지만, 그렇지 않다. 왜냐면 p는 previous line과 mapping되어
-있기 때문에, P(capital P)를 눌러야 push가 된다. 시간이 좀 걸린다는 것을 유념해라. 네트웍을 통해 
+있기 때문에, P(capital P)를 누르고, popup menu에서 p를 누를때  push가 된다. 시간이 좀 걸린다는 것을 유념해라. 네트웍을 통해 
 파일을 전송하기 때문에, 늦더라도 계속 P를 누르지 마라.
 </p>
 
@@ -414,51 +425,111 @@ push는 p를 누르면 push가 될꺼 같지만, 그렇지 않다. 왜냐면 p�
 </div>
 </div>
 </div>
-<div id="outline-container-org75de73a" class="outline-3">
-<h3 id="org75de73a"><span class="section-number-3">2.2</span> admonition list</h3>
+<div id="outline-container-org0080e1b" class="outline-3">
+<h3 id="org0080e1b"><span class="section-number-3">2.2</span> Project만들기 -(step 2)</h3>
 <div class="outline-text-3" id="text-2-2">
+<p class="verse">
+2번째 단계에선 우리가 문서를 만든다. readtheorg형식을 단축키로 사용하기. admonition list 사용하는법을<br />
+기술한다.<br />
+</p>
+</div>
+<div id="outline-container-org2ae9050" class="outline-4">
+<h4 id="org2ae9050"><span class="section-number-4">2.2.1</span> [기술] yasnippet사용법</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<div class="important">
+<p>
+ yasnippet의 사용법은 간단하다. yasnippet을 만들고 사용하고 수정할 수 있으면 된다. 그런데 우리가
+그렇게 사용하고자 할 때, 약간의 문제가 있다. 단축키 문제다. 우리가 사용하는 org mode에선 yasnippet의
+단축키가 중복이된다. 그래서 그것을 변경해야 한다.
+</p>
+
+</div>
+<p>
+[yasnippet 단축키 변경]
+(1) C-c n: snippet 만들기.
+(2) C-c s: snippet 삽입하기.
+(3) C-c v: snippet 변경하기.
+<img src="./img/snippet.png" alt="snippet.png" />
+</p>
+<p class="verse">
+&#xa0;&#xa0;- snippet 내용.<br />
+<img src="./img/makesnippet.png" alt="makesnippet.png" /><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org601c5ee" class="outline-4">
+<h4 id="org601c5ee"><span class="section-number-4">2.2.2</span> yasnippet list</h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div>
+<div id="outline-container-org937529b" class="outline-5">
+<h5 id="org937529b">readtheorg header</h5>
+<div class="outline-text-5" id="text-org937529b">
+<pre class="example">
+snippet삽입할때 name(readtheorg_header)을 선택한다.      
+</pre>
+</div>
+</div>
+<div id="outline-container-org44049a7" class="outline-5">
+<h5 id="org44049a7">admonition list</h5>
+<div class="outline-text-5" id="text-org44049a7">
+<p>
+(1) name:bnote     
+</p>
 <div class="note">
 <p>
 This is a useful note.
 </p>
 
 </div>
-
+<p>
+(2) name:bwarning
+</p>
 <div class="warning">
 <p>
 Be careful!  Check that you have&#x2026;
 </p>
 
 </div>
-
+<p>
+(3) name:btip
+</p>
 <div class="tip">
 <p>
 Try doing it this way&#x2026;
 </p>
 
 </div>
-
+<p>
+(4) name:bcaution
+</p>
 <div class="caution">
 <p>
 Caution
 </p>
 
 </div>
-
+<p>
+(5) name:important
+</p>
 <div class="important">
 <p>
 Important
 </p>
 
 </div>
-
+<p>
+(6) name:battention
+</p>
 <div class="attention">
 <p>
 Attention
 </p>
 
 </div>
-
+<p>
+(7) name:bleft
+</p>
 <div class="left">
 <p>
 This text is <br />
@@ -466,14 +537,18 @@ aligned to the left!
 </p>
 
 </div>
-
+<p>
+(8) name:bcenter
+</p>
 <div class="org-center">
 <p>
 This text is <br />
 centered!
 </p>
 </div>
-
+<p>
+(9) name:bright
+</p>
 <div class="right">
 <p>
 This text is <br />
@@ -482,7 +557,7 @@ aligned to the right!
 
 </div>
 <p>
--example
+(10) name:bexample
 </p>
 <pre class="example">
 10/17/97   9:04         &lt;DIR&gt;    bin
@@ -494,7 +569,7 @@ aligned to the right!
 </pre>
 
 <p>
--quote
+(11) name: bquote
 </p>
 <blockquote>
 <p>
@@ -504,7 +579,7 @@ but not any simpler. &#x2013; Albert Einstein
 </blockquote>
 
 <p>
--verse
+(12) name:bverse
 </p>
 <p class="verse">
 Everything should be made as simple as possible,<br />
@@ -513,22 +588,12 @@ but not any simpler. &#x2013; Albert Einstein<br />
 </div>
 </div>
 </div>
-
-
-<div id="outline-container-org0652b23" class="outline-2">
-<h2 id="org0652b23"><span class="section-number-2">3</span> 책</h2>
 </div>
-
-<div id="outline-container-orgf4548a6" class="outline-2">
-<h2 id="orgf4548a6"><span class="section-number-2">4</span> Articles</h2>
-</div>
-<div id="outline-container-org3ebc9a5" class="outline-2">
-<h2 id="org3ebc9a5"><span class="section-number-2">5</span> My thinkings</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Hoyoul Park</p>
-<p class="date">Created: 2018-12-03 Mon 11:40</p>
+<p class="date">Created: 2018-12-04 Tue 05:17</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
