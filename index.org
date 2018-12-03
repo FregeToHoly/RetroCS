@@ -49,10 +49,9 @@
      C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unstaged files)이 있다면 s를 눌러서 stage로 
      올릴 수 있다. 파일 하나 하나 stage가 가능하다.
      #+END_tip
+     [stage 이전]
      [[./img/unstaged.png]]
-     #+BEGIN_tip
-     stage된 결과를 보자.
-     #+END_tip
+     [stage 결과]
      [[./img/staged.png]]
 **** magit commit
      #+BEGIN_tip
@@ -61,11 +60,18 @@
      buffer가 보인다. message를 작성한 후 C-c C-c를 누르면 commit이 완료된다. 물론 staged changed라는
      label에 커서를 올려놓으면 모든파일을 한번에 commit할 수 있다는 것을 잊지말자.
      #+END_tip
-     
+     [commit이전]
+     [[./img/staged.png]]
+     [commit결과]
+     [[./img/aftercommit.png]]
 **** magit push
      #+BEGIN_tip
-     
+     push는 p를 누르면 push가 될꺼 같지만, 그렇지 않다. 왜냐면 p는 previous line과 mapping되어
+     있기 때문에, P(capital P)를 눌러야 push가 된다.
      #+END_tip
+     [push이전]
+
+     [push이후]
 ** admonition list
  #+begin_note
  This is a useful note.

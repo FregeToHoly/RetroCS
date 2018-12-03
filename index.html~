@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-12-03 Mon 10:38 -->
+<!-- 2018-12-03 Mon 10:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>My collections</title>
@@ -243,35 +243,35 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org497806a">1. About me</a></li>
-<li><a href="#orgc8045bb">2. 정리과정</a>
+<li><a href="#org1bf8f62">1. About me</a></li>
+<li><a href="#org16ea203">2. 정리과정</a>
 <ul>
-<li><a href="#orgc658268">2.1. Project만들기 -(1)</a>
+<li><a href="#org46a5d4a">2.1. Project만들기 -(1)</a>
 <ul>
-<li><a href="#org03c8c2f">2.1.1. github 만들기.</a></li>
-<li><a href="#org71f718b">2.1.2. project folder</a></li>
-<li><a href="#orgf426503">2.1.3. [기술] magit 사용법</a>
+<li><a href="#org8cdd4d3">2.1.1. github 만들기.</a></li>
+<li><a href="#orgbb45283">2.1.2. project folder</a></li>
+<li><a href="#org1e99ecb">2.1.3. [기술] magit 사용법</a>
 <ul>
-<li><a href="#org031ccbe">magit 설치</a></li>
-<li><a href="#org5245988">magit clone</a></li>
-<li><a href="#org4b265e9">magit add</a></li>
-<li><a href="#org00d3261">magit commit</a></li>
-<li><a href="#org16e6c92">magit push</a></li>
+<li><a href="#org4552141">magit 설치</a></li>
+<li><a href="#org812c55b">magit clone</a></li>
+<li><a href="#orgd7c9804">magit add</a></li>
+<li><a href="#orgc8768c1">magit commit</a></li>
+<li><a href="#org1243764">magit push</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org7d8375f">2.2. admonition list</a></li>
+<li><a href="#orgb6cc13d">2.2. admonition list</a></li>
 </ul>
 </li>
-<li><a href="#org1738549">3. 책</a></li>
-<li><a href="#org7875d76">4. Articles</a></li>
-<li><a href="#org5ba66ef">5. My thinkings</a></li>
+<li><a href="#org1e670b9">3. 책</a></li>
+<li><a href="#orge135a1a">4. Articles</a></li>
+<li><a href="#org6c288a9">5. My thinkings</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org497806a" class="outline-2">
-<h2 id="org497806a"><span class="section-number-2">1</span> About me</h2>
+<div id="outline-container-org1bf8f62" class="outline-2">
+<h2 id="org1bf8f62"><span class="section-number-2">1</span> About me</h2>
 <div class="outline-text-2" id="text-1">
 <pre class="example">
 . 가난한 사람.
@@ -291,16 +291,16 @@ framework?를 사용하기로 했다. 그런데 예상과 달리, 복잡한 과�
 </div>
 </div>
 </div>
-<div id="outline-container-orgc8045bb" class="outline-2">
-<h2 id="orgc8045bb"><span class="section-number-2">2</span> 정리과정</h2>
+<div id="outline-container-org16ea203" class="outline-2">
+<h2 id="org16ea203"><span class="section-number-2">2</span> 정리과정</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgc658268" class="outline-3">
-<h3 id="orgc658268"><span class="section-number-3">2.1</span> Project만들기 -(1)</h3>
+<div id="outline-container-org46a5d4a" class="outline-3">
+<h3 id="org46a5d4a"><span class="section-number-3">2.1</span> Project만들기 -(1)</h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org03c8c2f" class="outline-4">
-<h4 id="org03c8c2f"><span class="section-number-4">2.1.1</span> github 만들기.</h4>
+<div id="outline-container-org8cdd4d3" class="outline-4">
+<h4 id="org8cdd4d3"><span class="section-number-4">2.1.1</span> github 만들기.</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <p>
 내가 쓴 글을 저장하고 웹으로 보여주기 위해 첫번째로 해야 할건, github에 계정을 만드는 것이다.
@@ -309,8 +309,8 @@ framework?를 사용하기로 했다. 그런데 예상과 달리, 복잡한 과�
 </div>
 </div>
 
-<div id="outline-container-org71f718b" class="outline-4">
-<h4 id="org71f718b"><span class="section-number-4">2.1.2</span> project folder</h4>
+<div id="outline-container-orgbb45283" class="outline-4">
+<h4 id="orgbb45283"><span class="section-number-4">2.1.2</span> project folder</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <p>
 github을 만들었기 때문에 clone하면 RetroCS폴더가 만들어진다. 여기서 원하는 폴더와 문서를 작성하면 된다.
@@ -319,8 +319,8 @@ github을 만들었기 때문에 clone하면 RetroCS폴더가 만들어진다. �
 </div>
 </div>
 
-<div id="outline-container-orgf426503" class="outline-4">
-<h4 id="orgf426503"><span class="section-number-4">2.1.3</span> [기술] magit 사용법</h4>
+<div id="outline-container-org1e99ecb" class="outline-4">
+<h4 id="org1e99ecb"><span class="section-number-4">2.1.3</span> [기술] magit 사용법</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <p>
 github을 만들었기 때문에 github 저장소와 local machine간의 파일 전송및 이력관리를 위해 git을 사용할 줄 알아야 한다.
@@ -328,9 +328,9 @@ emacs를 사용하기 때문에 magit을 사용한다. 모든 기능을 살펴�
 </p>
 </div>
 
-<div id="outline-container-org031ccbe" class="outline-5">
-<h5 id="org031ccbe">magit 설치</h5>
-<div class="outline-text-5" id="text-org031ccbe">
+<div id="outline-container-org4552141" class="outline-5">
+<h5 id="org4552141">magit 설치</h5>
+<div class="outline-text-5" id="text-org4552141">
 
 <div class="figure">
 <p><img src="./img/magit.png" alt="magit.png" />
@@ -338,9 +338,9 @@ emacs를 사용하기 때문에 magit을 사용한다. 모든 기능을 살펴�
 </div>
 </div>
 </div>
-<div id="outline-container-org5245988" class="outline-5">
-<h5 id="org5245988">magit clone</h5>
-<div class="outline-text-5" id="text-org5245988">
+<div id="outline-container-org812c55b" class="outline-5">
+<h5 id="org812c55b">magit clone</h5>
+<div class="outline-text-5" id="text-org812c55b">
 <p>
 좋은 동영상이 있어서 참조한다. 
 </p>
@@ -355,26 +355,44 @@ M-x magit-clone을 입력한 후, clone할 source address, target address를 입
 </p>
 </div>
 </div>
-<div id="outline-container-org4b265e9" class="outline-5">
-<h5 id="org4b265e9">magit add</h5>
-<div class="outline-text-5" id="text-org4b265e9">
+<div id="outline-container-orgd7c9804" class="outline-5">
+<h5 id="orgd7c9804">magit add</h5>
+<div class="outline-text-5" id="text-orgd7c9804">
 <div class="tip">
 <p>
 C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unstaged files)이 있다면 s를 눌러서 stage로 
-올릴 수 있다.
+올릴 수 있다. 파일 하나 하나 stage가 가능하다.
 </p>
 
 </div>
-
-<div class="figure">
-<p><img src="./img/unstaged.png" alt="unstaged.png" />
+<p>
+<img src="./img/unstaged.png" alt="unstaged.png" />
+[stage 결과]
+<img src="./img/staged.png" alt="staged.png" />
 </p>
 </div>
 </div>
+<div id="outline-container-orgc8768c1" class="outline-5">
+<h5 id="orgc8768c1">magit commit</h5>
+<div class="outline-text-5" id="text-orgc8768c1">
+<div class="tip">
+<p>
+staged changes라고 붙은 label아래 파일에 커서를 놓고 c를 누르면 popup menu가 뜬다.
+popup menu에 보면 c:commit이 있다. c를 눌러 commit을 하자. 그러면 message를 작성할 수 있는 
+buffer가 보인다. message를 작성한 후 C-c C-c를 누르면 commit이 완료된다. 물론 staged changed라는
+label에 커서를 올려놓으면 모든파일을 한번에 commit할 수 있다는 것을 잊지말자.
+</p>
+
 </div>
-<div id="outline-container-org00d3261" class="outline-5">
-<h5 id="org00d3261">magit commit</h5>
-<div class="outline-text-5" id="text-org00d3261">
+<p>
+[commit결과]
+<img src="./img/aftercommit.png" alt="aftercommit.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org1243764" class="outline-5">
+<h5 id="org1243764">magit push</h5>
+<div class="outline-text-5" id="text-org1243764">
 <div class="tip">
 <p>
      
@@ -383,21 +401,10 @@ C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unsta
 </div>
 </div>
 </div>
-<div id="outline-container-org16e6c92" class="outline-5">
-<h5 id="org16e6c92">magit push</h5>
-<div class="outline-text-5" id="text-org16e6c92">
-<div class="tip">
-<p>
-     
-</p>
-
 </div>
 </div>
-</div>
-</div>
-</div>
-<div id="outline-container-org7d8375f" class="outline-3">
-<h3 id="org7d8375f"><span class="section-number-3">2.2</span> admonition list</h3>
+<div id="outline-container-orgb6cc13d" class="outline-3">
+<h3 id="orgb6cc13d"><span class="section-number-3">2.2</span> admonition list</h3>
 <div class="outline-text-3" id="text-2-2">
 <div class="note">
 <p>
@@ -497,20 +504,20 @@ but not any simpler. &#x2013; Albert Einstein<br />
 </div>
 
 
-<div id="outline-container-org1738549" class="outline-2">
-<h2 id="org1738549"><span class="section-number-2">3</span> 책</h2>
+<div id="outline-container-org1e670b9" class="outline-2">
+<h2 id="org1e670b9"><span class="section-number-2">3</span> 책</h2>
 </div>
 
-<div id="outline-container-org7875d76" class="outline-2">
-<h2 id="org7875d76"><span class="section-number-2">4</span> Articles</h2>
+<div id="outline-container-orge135a1a" class="outline-2">
+<h2 id="orge135a1a"><span class="section-number-2">4</span> Articles</h2>
 </div>
-<div id="outline-container-org5ba66ef" class="outline-2">
-<h2 id="org5ba66ef"><span class="section-number-2">5</span> My thinkings</h2>
+<div id="outline-container-org6c288a9" class="outline-2">
+<h2 id="org6c288a9"><span class="section-number-2">5</span> My thinkings</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Hoyoul Park</p>
-<p class="date">Created: 2018-12-03 Mon 10:38</p>
+<p class="date">Created: 2018-12-03 Mon 10:55</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
