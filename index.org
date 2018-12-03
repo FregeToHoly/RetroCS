@@ -1,0 +1,126 @@
+#+TITLE: My collections
+#+AUTHOR: Hoyoul Park
+#+DESCRIPTION: Org-HTML export made simple.
+#+KEYWORDS:  org-mode, export, html, theme, style, css, js, bigblow
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 toc:t num:3
+
+#+PROPERTY:  header-args :padline no
+#+SETUPFILE: ~/Mythings/Myprojects/setup/theme-readtheorg.setup
+* About me
+
+#+BEGIN_EXAMPLE
+. 가난한 사람.
+. 모르는 것을 알기 위해 노력함.
+. 제주에 거주
+#+END_EXAMPLE
+
+  #+BEGIN_important
+  공부하는 내용을 정리할 필요를 느꼈다. 블로그말고 홈페이지를 만들려고 했지만,
+  시간도 없고 무의미한 거 같아 org mode에서 작성하고 약간의 꾸밈을 줄려고 readthe org라는
+  framework?를 사용하기로 했다. 그런데 예상과 달리, 복잡한 과정이 필요했다. 단지 org모드에서
+  글을 쓰고 github에 올려 웹페이지로 보는것인데..의외로 많은 잡다한 일을 해야 했다. 이것을 기록으로 남기지
+  않으면 했던 일을 반복해야 한다. 그래서 그 과정을 쓰기로 한다. 나란 사람이 원래 그렇다. 했던거 반복하기. 취미이자 특기다.
+  #+END_important
+* 정리과정
+** Project만들기 -(1)
+*** github 만들기.
+    내가 쓴 글을 저장하고 웹으로 보여주기 위해 첫번째로 해야 할건, github에 계정을 만드는 것이다.
+    [[./img/github.png]]
+
+*** project folder
+    github을 만들었기 때문에 clone하면 RetroCS폴더가 만들어진다. 여기서 원하는 폴더와 문서를 작성하면 된다.
+    [[./img/project.png]]
+
+*** [기술] magit 사용법
+    github을 만들었기 때문에 github 저장소와 local machine간의 파일 전송및 이력관리를 위해 git을 사용할 줄 알아야 한다.
+    emacs를 사용하기 때문에 magit을 사용한다. 모든 기능을 살펴보진 않고, 필수적인 기능을 살펴볼 것이다.
+
+**** magit 설치
+     [[./img/magit.png]]
+**** magit clone
+     좋은 동영상이 있어서 참조한다. 
+     #+BEGIN_tip
+     M-x magit-clone을 입력한 후, clone할 source address, target address를 입력하면 된다.
+     #+END_tip
+     [[https://youtu.be/lchGdQnLGY8]]
+**** magit add
+     #+BEGIN_tip
+     C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unstaged files)이 있다면 s를 눌러서 stage로 
+     올릴 수 있다.
+     #+END_tip
+     [[./img/unstaged.png]]
+**** magit commit
+     #+BEGIN_tip
+     
+     #+END_tip
+**** magit push
+     #+BEGIN_tip
+     
+     #+END_tip
+** admonition list
+ #+begin_note
+ This is a useful note.
+ #+end_note
+
+ #+begin_warning
+ Be careful!  Check that you have...
+ #+end_warning
+
+ #+begin_tip
+ Try doing it this way...
+ #+end_tip
+
+ #+begin_caution
+ Caution
+ #+end_caution
+
+ #+begin_important
+ Important
+ #+end_important
+
+ #+begin_attention
+ Attention
+ #+end_attention
+
+ #+begin_left
+ This text is \\
+ aligned to the left!
+ #+end_left
+
+ #+begin_center
+ This text is \\
+ centered!
+ #+end_center
+
+ #+begin_right
+ This text is \\
+ aligned to the right!
+ #+end_right
+ -example
+ #+begin_example
+ 10/17/97   9:04         <DIR>    bin
+ 10/16/97  14:11         <DIR>    DOS
+ 10/16/97  14:46         <DIR>    TEMP
+ 10/16/97  14:37         <DIR>    WINNT
+ 10/16/97  14:25             119  AUTOEXEC.BAT
+  2/13/94   6:21          54,619  COMMAND.COM
+ #+end_example
+
+ -quote
+ #+begin_quote
+ Everything should be made as simple as possible,
+ but not any simpler. -- Albert Einstein
+ #+end_quote
+
+ -verse
+ #+begin_verse
+ Everything should be made as simple as possible,
+ but not any simpler. -- Albert Einstein
+ #+end_verse
+
+
+* 책
+
+* Articles
+* My thinkings

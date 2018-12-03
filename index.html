@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-12-03 Mon 10:38 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My collections</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Hoyoul Park" />
+<meta name="description" content="Org-HTML export made simple."
+ />
+<meta name="keywords" content="org-mode, export, html, theme, style, css, js, bigblow" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">My collections</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org497806a">1. About me</a></li>
+<li><a href="#orgc8045bb">2. 정리과정</a>
+<ul>
+<li><a href="#orgc658268">2.1. Project만들기 -(1)</a>
+<ul>
+<li><a href="#org03c8c2f">2.1.1. github 만들기.</a></li>
+<li><a href="#org71f718b">2.1.2. project folder</a></li>
+<li><a href="#orgf426503">2.1.3. [기술] magit 사용법</a>
+<ul>
+<li><a href="#org031ccbe">magit 설치</a></li>
+<li><a href="#org5245988">magit clone</a></li>
+<li><a href="#org4b265e9">magit add</a></li>
+<li><a href="#org00d3261">magit commit</a></li>
+<li><a href="#org16e6c92">magit push</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7d8375f">2.2. admonition list</a></li>
+</ul>
+</li>
+<li><a href="#org1738549">3. 책</a></li>
+<li><a href="#org7875d76">4. Articles</a></li>
+<li><a href="#org5ba66ef">5. My thinkings</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org497806a" class="outline-2">
+<h2 id="org497806a"><span class="section-number-2">1</span> About me</h2>
+<div class="outline-text-2" id="text-1">
+<pre class="example">
+. 가난한 사람.
+. 모르는 것을 알기 위해 노력함.
+. 제주에 거주
+</pre>
+
+<div class="important">
+<p>
+공부하는 내용을 정리할 필요를 느꼈다. 블로그말고 홈페이지를 만들려고 했지만,
+시간도 없고 무의미한 거 같아 org mode에서 작성하고 약간의 꾸밈을 줄려고 readthe org라는
+framework?를 사용하기로 했다. 그런데 예상과 달리, 복잡한 과정이 필요했다. 단지 org모드에서
+글을 쓰고 github에 올려 웹페이지로 보는것인데..의외로 많은 잡다한 일을 해야 했다. 이것을 기록으로 남기지
+않으면 했던 일을 반복해야 한다. 그래서 그 과정을 쓰기로 한다. 나란 사람이 원래 그렇다. 했던거 반복하기. 취미이자 특기다.
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgc8045bb" class="outline-2">
+<h2 id="orgc8045bb"><span class="section-number-2">2</span> 정리과정</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgc658268" class="outline-3">
+<h3 id="orgc658268"><span class="section-number-3">2.1</span> Project만들기 -(1)</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org03c8c2f" class="outline-4">
+<h4 id="org03c8c2f"><span class="section-number-4">2.1.1</span> github 만들기.</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+내가 쓴 글을 저장하고 웹으로 보여주기 위해 첫번째로 해야 할건, github에 계정을 만드는 것이다.
+<img src="./img/github.png" alt="github.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org71f718b" class="outline-4">
+<h4 id="org71f718b"><span class="section-number-4">2.1.2</span> project folder</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+github을 만들었기 때문에 clone하면 RetroCS폴더가 만들어진다. 여기서 원하는 폴더와 문서를 작성하면 된다.
+<img src="./img/project.png" alt="project.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf426503" class="outline-4">
+<h4 id="orgf426503"><span class="section-number-4">2.1.3</span> [기술] magit 사용법</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+github을 만들었기 때문에 github 저장소와 local machine간의 파일 전송및 이력관리를 위해 git을 사용할 줄 알아야 한다.
+emacs를 사용하기 때문에 magit을 사용한다. 모든 기능을 살펴보진 않고, 필수적인 기능을 살펴볼 것이다.
+</p>
+</div>
+
+<div id="outline-container-org031ccbe" class="outline-5">
+<h5 id="org031ccbe">magit 설치</h5>
+<div class="outline-text-5" id="text-org031ccbe">
+
+<div class="figure">
+<p><img src="./img/magit.png" alt="magit.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5245988" class="outline-5">
+<h5 id="org5245988">magit clone</h5>
+<div class="outline-text-5" id="text-org5245988">
+<p>
+좋은 동영상이 있어서 참조한다. 
+</p>
+<div class="tip">
+<p>
+M-x magit-clone을 입력한 후, clone할 source address, target address를 입력하면 된다.
+</p>
+
+</div>
+<p>
+<a href="https://youtu.be/lchGdQnLGY8">https://youtu.be/lchGdQnLGY8</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org4b265e9" class="outline-5">
+<h5 id="org4b265e9">magit add</h5>
+<div class="outline-text-5" id="text-org4b265e9">
+<div class="tip">
+<p>
+C-x g를 누르면 현재 git status(상태)가 보인다. untracked files(unstaged files)이 있다면 s를 눌러서 stage로 
+올릴 수 있다.
+</p>
+
+</div>
+
+<div class="figure">
+<p><img src="./img/unstaged.png" alt="unstaged.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org00d3261" class="outline-5">
+<h5 id="org00d3261">magit commit</h5>
+<div class="outline-text-5" id="text-org00d3261">
+<div class="tip">
+<p>
+     
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org16e6c92" class="outline-5">
+<h5 id="org16e6c92">magit push</h5>
+<div class="outline-text-5" id="text-org16e6c92">
+<div class="tip">
+<p>
+     
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7d8375f" class="outline-3">
+<h3 id="org7d8375f"><span class="section-number-3">2.2</span> admonition list</h3>
+<div class="outline-text-3" id="text-2-2">
+<div class="note">
+<p>
+This is a useful note.
+</p>
+
+</div>
+
+<div class="warning">
+<p>
+Be careful!  Check that you have&#x2026;
+</p>
+
+</div>
+
+<div class="tip">
+<p>
+Try doing it this way&#x2026;
+</p>
+
+</div>
+
+<div class="caution">
+<p>
+Caution
+</p>
+
+</div>
+
+<div class="important">
+<p>
+Important
+</p>
+
+</div>
+
+<div class="attention">
+<p>
+Attention
+</p>
+
+</div>
+
+<div class="left">
+<p>
+This text is <br />
+aligned to the left!
+</p>
+
+</div>
+
+<div class="org-center">
+<p>
+This text is <br />
+centered!
+</p>
+</div>
+
+<div class="right">
+<p>
+This text is <br />
+aligned to the right!
+</p>
+
+</div>
+<p>
+-example
+</p>
+<pre class="example">
+10/17/97   9:04         &lt;DIR&gt;    bin
+10/16/97  14:11         &lt;DIR&gt;    DOS
+10/16/97  14:46         &lt;DIR&gt;    TEMP
+10/16/97  14:37         &lt;DIR&gt;    WINNT
+10/16/97  14:25             119  AUTOEXEC.BAT
+ 2/13/94   6:21          54,619  COMMAND.COM
+</pre>
+
+<p>
+-quote
+</p>
+<blockquote>
+<p>
+Everything should be made as simple as possible,
+but not any simpler. &#x2013; Albert Einstein
+</p>
+</blockquote>
+
+<p>
+-verse
+</p>
+<p class="verse">
+Everything should be made as simple as possible,<br />
+but not any simpler. &#x2013; Albert Einstein<br />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org1738549" class="outline-2">
+<h2 id="org1738549"><span class="section-number-2">3</span> 책</h2>
+</div>
+
+<div id="outline-container-org7875d76" class="outline-2">
+<h2 id="org7875d76"><span class="section-number-2">4</span> Articles</h2>
+</div>
+<div id="outline-container-org5ba66ef" class="outline-2">
+<h2 id="org5ba66ef"><span class="section-number-2">5</span> My thinkings</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hoyoul Park</p>
+<p class="date">Created: 2018-12-03 Mon 10:38</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
